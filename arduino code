@@ -12,10 +12,10 @@ void loop() {
   int state = digitalRead(sensorPin);
 
   if (state == HIGH) {
-    digitalWrite(ledPin, HIGH);
-    digitalWrite(buzzerPin, HIGH);
-  } else {
     digitalWrite(ledPin, LOW);
     digitalWrite(buzzerPin, LOW);
+  } else {
+    digitalWrite(ledPin, HIGH);
+    digitalWrite(buzzerPin, HIGH);
   }
 }
