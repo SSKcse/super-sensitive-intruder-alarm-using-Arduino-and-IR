@@ -1,0 +1,21 @@
+int sensorPin = 2;
+int ledPin = 3;
+int buzzerPin = 4;
+
+void setup() {
+  pinMode(sensorPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
+}
+
+void loop() {
+  int state = digitalRead(sensorPin);
+
+  if (state == HIGH) {
+    digitalWrite(ledPin, HIGH);
+    digitalWrite(buzzerPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
+    digitalWrite(buzzerPin, LOW);
+  }
+}
