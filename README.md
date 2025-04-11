@@ -44,7 +44,3 @@ Connect Arduino → Open Arduino IDE → Paste code → Select Board/Port → Up
 
 ### ✅ **Test It**
 Wave your hand in front of the IR sensor. The **LED and buzzer** should trigger instantly.
-
----
-
-Want to add a delay, or make it work only at night with an LDR? I can help with that too.
